@@ -10,6 +10,8 @@ public class Piece {
 		position = null;
 	}
 
+	/* protected porque ela é uma classe 
+	 * que so pode ser usada no mesmo pacote, não podendo ser usada por outas classes*/
 	protected Board getBoard() {
 		return board;
 	}
